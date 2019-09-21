@@ -155,7 +155,7 @@ public class QuestionBank {
 		Scanner input = new Scanner(System.in);
 
 		// loop to go through all questions
-		for (counter = 0; counter <= questionList.length - 1;) {
+		for (counter = 0; counter < questionList.length;) {
 
 			// show question
 			System.out.println(questionList[counter]);
