@@ -33,7 +33,8 @@ public class QuestionBank {
 						+ "\n[4] wrong";
 		questionList[2] = "Question 03" 
 						+ "\nWhat the correct anwser?"
-						+ "\n[1] wrong" + "\n[2] wrong" 
+						+ "\n[1] wrong" 
+						+ "\n[2] wrong" 
 						+ "\n[3] correct"
 						+ "\n[4] wrong";
 		questionList[3] = "Question 04" 
