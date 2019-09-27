@@ -20,35 +20,35 @@ public class QuestionBank {
 	private void simulateQuestion() {
 		// array to store questions
 		questionList[0] = "Question 01" 
-						+ "\nWhat the correct anwser?" 
-						+ "\n[1] correct" 
-						+ "\n[2] wrong" 
-						+ "\n[3] wrong"
-						+ "\n[4] wrong";
+						+ "\nEnd-of-line comments that should be ignored by the compiler are denoted using?" 
+						+ "\n[1] Two forward slashes (//)." 
+						+ "\n[2] Three forward slashes (///)." 
+						+ "\n[3] A slash and a star (/*)."
+						+ "\n[4] A slash and a star (/*).";
 		questionList[1] = "Question 02" 
-						+ "\nWhat the correct anwser?" 
-						+ "\n[1] wrong" 
-						+ "\n[2] correct" 
-						+ "\n[3] wrong"
-						+ "\n[4] wrong";
+						+ "\nWhich of the following is not a valid Java identifier?" 
+						+ "\n[1] $_AAA1" 
+						+ "\n[2] my Value" 
+						+ "\n[3] width"
+						+ "\n[4] m_x";
 		questionList[2] = "Question 03" 
-						+ "\nWhat the correct anwser?"
-						+ "\n[1] wrong" 
-						+ "\n[2] wrong" 
-						+ "\n[3] correct"
-						+ "\n[4] wrong";
+						+ "\nWhich of the following cannot cause a syntax error to be reported by the Java compiler?"
+						+ "\n[1] Mismatched {}" 
+						+ "\n[2] Missing */ in a comment that begins with /*" 
+						+ "\n[3] An extra blank line."
+						+ "\n[4] Missing ;";
 		questionList[3] = "Question 04" 
-						+ "\nWhat the correct anwser?" 
-						+ "\n[1] wrong" 
-						+ "\n[2] wrong" 
-						+ "\n[3] wrong"
-						+ "\n[4] correct";
+						+ "\nWhich command compiles the Java source code file Welcome.java?" 
+						+ "\n[1] cd Welcome.java" 
+						+ "\n[2] java Welcome.java" 
+						+ "\n[3] compile Welcome.java"
+						+ "\n[4] javac Welcome.java";
 		questionList[4] = "Question 05" 
-						+ "\nWhat the correct anwser?" 
-						+ "\n[1] correct" 
-						+ "\n[2] wrong"
-						+ "\n[3] wrong"
-						+ "\n[4] wrong";
+						+ "\nWhen method printf requires multiple arguments, the arguments are separated with ________." 
+						+ "\n[1] commas (,)." 
+						+ "\n[2] colons (:)."
+						+ "\n[3] semicolons (;)."
+						+ "\n[4] periods (.).";
 	} // end of simulateQuestion method
 
 	/**
