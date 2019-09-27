@@ -27,7 +27,7 @@ public class LottoTest {
 				if (userInput < 3 || userInput > 27) {
 					System.out.println("Invalid choice.");
 				} else {
-					// loop to show the numbers generated a their sum
+					// loop to show the numbers generated and their sum
 					for (int counter = 0; counter < game.arrayLotto().length; counter++) {
 						System.out.println("\tNumber[" + counter + "] is: " + game.arrayLotto()[counter]);
 						sum += game.arrayLotto()[counter];
